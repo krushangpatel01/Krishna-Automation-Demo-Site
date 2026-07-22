@@ -2353,7 +2353,7 @@ Top CTA
 ==================================================*/
 
 .service-area {
-    background: #21222571;
+    background: #000000;
     color: #fbfbfb;
     
     border-top: 1px solid rgba(255, 255, 255, .08);
@@ -2379,7 +2379,7 @@ Top CTA
 
 .service-area__content h2{
 
-    color:#fafafa;
+    color:#1900ff;
 
     font-size:42px;
 
@@ -2411,7 +2411,7 @@ Top CTA
 
 .service-list li{
 
-    color:#000000;
+    color:#fcfcfc;
 
     margin-bottom:18px;
 
