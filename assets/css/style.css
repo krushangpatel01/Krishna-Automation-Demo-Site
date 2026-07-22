@@ -1,8 +1,14 @@
-/*==========================================
-            GOOGLE FONT
-==========================================*/
+/*==================================================
+                    FONTS
+==================================================*/
 
-/* Poppins is loaded from index.html */
+:root{
+
+    --heading-font: 'Outfit', sans-serif;
+
+    --body-font: 'DM Sans', sans-serif;
+
+}
 
 /*==========================================
               CSS VARIABLES
@@ -90,15 +96,83 @@ html{
 
 body{
 
-    font-family:var(--font-family);
+    font-family: var(--body-font);
 
-    background:var(--background-color);
+    font-size:16px;
 
-    color:var(--black);
+    line-height:1.7;
 
-    overflow-x:hidden;
+    color:#f8f9fa;
 
-    line-height:1.6;
+    background:#0B1120;
+
+}
+
+/*==================================================
+                HEADING FONT
+==================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family: var(--heading-font);
+
+    font-weight:700;
+
+    letter-spacing:-0.5px;
+
+    color:#0026fd;
+
+}
+
+/*==================================================
+                BODY FONT
+==================================================*/
+
+p,
+a,
+span,
+li,
+button,
+input,
+textarea,
+select,
+label{
+
+    font-family: var(--body-font);
+
+}
+
+.section-title,
+.hero-title,
+.about-hero h1,
+.industrial-hero h1,
+.contact-hero h1,
+.service-card h3,
+.timeline-content h3,
+.team-content h3,
+.faq-question,
+.footer-title{
+
+    font-family: var(--heading-font);
+
+}
+
+.hero p,
+.about-company p,
+.section-text,
+.service-card p,
+.timeline-content p,
+.team-content p,
+.faq-answer p,
+.footer p,
+.btn{
+
+    font-family: var(--body-font);
 
 }
 
@@ -222,7 +296,7 @@ select{
 
     color:var(--heading-color);
 
-    margin-bottom:20px;
+    margin-bottom:10px;
 
     line-height:1.2;
 
@@ -902,7 +976,7 @@ Top CTA
 
     position:relative;
 
-    color:var(--heading-color);
+    color:blue;
 
     font-size:17px;
 
@@ -1171,7 +1245,7 @@ Top CTA
 
     line-height: 1.9;
 
-    color: var(--text-color);
+    color: white;
 
     margin-bottom: 35px;
 
@@ -1321,7 +1395,7 @@ Top CTA
 
 .hero__trust span{
 
-    color: var(--text-color);
+    color: white;
 
     font-size: 14px;
 
@@ -1351,7 +1425,7 @@ Top CTA
 
     font-size: 30px;
 
-    color: var(--heading-color);
+    color: black;
 
 }
 
@@ -1475,7 +1549,7 @@ Top CTA
 .section-title{
     text-align:center;
     max-width:800px;
-    margin:0 auto 60px;
+    margin:0 auto 20px;
     color: var(--white);
 }
 
@@ -1768,7 +1842,7 @@ Top CTA
 
     font-size:44px;
 
-    color:var(--heading-color);
+    color:black;
 
     margin:18px 0 10px;
 
@@ -1826,7 +1900,7 @@ Top CTA
 
     font-weight:500;
 
-    color:var(--heading-color);
+    color:black;
 
 }
 
@@ -1896,7 +1970,7 @@ Top CTA
 
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
-    gap: 30px;
+    gap: 10px;
 
     align-items: stretch;
 
@@ -2279,7 +2353,7 @@ Top CTA
 ==================================================*/
 
 .service-area {
-    background: #4665cedb;
+    background: #21222571;
     color: #fbfbfb;
     
     border-top: 1px solid rgba(255, 255, 255, .08);
