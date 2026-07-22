@@ -2803,3 +2803,1323 @@ font-size:14px;
 
 }
 
+/*==================================================
+        COMMERCIAL HERO RESPONSIVE
+==================================================*/
+
+@media(max-width:1400px){
+
+    .commercial-hero h1{
+
+        font-size:58px;
+
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .commercial-hero{
+
+        padding:160px 0 110px;
+
+    }
+
+    .commercial-hero h1{
+
+        font-size:52px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .commercial-hero{
+
+        padding:150px 0 100px;
+
+    }
+
+    .commercial-hero h1{
+
+        font-size:44px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .commercial-hero{
+
+        padding:130px 0 90px;
+
+        text-align:center;
+
+    }
+
+    .commercial-hero::before{
+
+        background-attachment:scroll;
+
+    }
+
+    .commercial-hero__content{
+
+        margin:auto;
+
+    }
+
+    .commercial-hero h1{
+
+        font-size:36px;
+
+    }
+
+    .commercial-hero p{
+
+        font-size:16px;
+
+    }
+
+    .commercial-hero__buttons{
+
+        justify-content:center;
+
+    }
+
+    .commercial-breadcrumb{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-hero{
+
+        padding:120px 0 80px;
+
+    }
+
+    .commercial-hero h1{
+
+        font-size:30px;
+
+    }
+
+    .commercial-hero p{
+
+        font-size:15px;
+
+    }
+
+    .commercial-hero__buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .commercial-hero__buttons .btn{
+
+        width:100%;
+
+        max-width:320px;
+
+        justify-content:center;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .commercial-hero h1{
+
+        font-size:26px;
+
+    }
+
+}
+
+/*==================================================
+        COMMERCIAL ABOUT RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+    .commercial-about{
+
+        padding:90px 0;
+
+    }
+
+    .commercial-about__wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .commercial-about__image{
+
+        max-width:650px;
+
+        margin:auto;
+
+    }
+
+    .commercial-about__content{
+
+        text-align:center;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .commercial-about__content h2{
+
+        font-size:36px;
+
+    }
+
+    .commercial-features{
+
+        grid-template-columns:1fr;
+
+        text-align:left;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-about{
+
+        padding:80px 0;
+
+    }
+
+    .commercial-about__content h2{
+
+        font-size:30px;
+
+    }
+
+    .commercial-about__content p{
+
+        font-size:15px;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .commercial-about__content h2{
+
+        font-size:26px;
+
+    }
+
+}
+
+/*==================================================
+        COMMERCIAL SERVICES RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .commercial-services-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .commercial-services{
+
+        padding:90px 0;
+
+    }
+
+    .commercial-services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-services{
+
+        padding:80px 0;
+
+    }
+
+    .commercial-services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .commercial-service-card{
+
+        max-width:400px;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .commercial-service-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .commercial-service-card{
+
+        padding:30px 20px;
+
+    }
+
+}
+
+/*==================================================
+    COMMERCIAL SECTORS RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .commercial-sector-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .commercial-sectors{
+
+        padding:90px 0;
+
+    }
+
+    .commercial-sector-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .sector-card{
+
+        height:280px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-sectors{
+
+        padding:80px 0;
+
+    }
+
+    .commercial-sector-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .sector-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+        height:260px;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .sector-card{
+
+        height:240px;
+
+    }
+
+    .sector-overlay{
+
+        padding:20px;
+
+    }
+
+    .sector-overlay h3{
+
+        font-size:20px;
+
+    }
+
+    .sector-overlay i{
+
+        width:55px;
+
+        height:55px;
+
+        font-size:22px;
+
+    }
+
+}
+
+
+/*==================================================
+    COMMERCIAL PROCESS RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .commercial-process-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .commercial-process{
+
+        padding:90px 0;
+
+    }
+
+    .commercial-process-grid{
+
+        gap:20px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-process{
+
+        padding:80px 0;
+
+    }
+
+    .commercial-process-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .commercial-process-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .commercial-process-card{
+
+        padding:35px 20px;
+
+    }
+
+    .process-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .commercial-process-card h3{
+
+        font-size:22px;
+
+    }
+
+}
+
+/*==================================================
+    WHY CHOOSE US RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .commercial-why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .commercial-why{
+
+        padding:90px 0;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-why{
+
+        padding:80px 0;
+
+    }
+
+    .commercial-why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .commercial-why-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .commercial-why-card{
+
+        padding:35px 20px;
+
+    }
+
+    .why-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .commercial-why-card h3{
+
+        font-size:22px;
+
+    }
+
+}
+
+/*==================================================
+            COMMERCIAL FAQ RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+    .commercial-faq{
+
+        padding:90px 0;
+
+    }
+
+    .commercial-faq-question{
+
+        font-size:17px;
+
+        padding:22px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .commercial-faq{
+
+        padding:80px 0;
+
+    }
+
+    .commercial-faq-question{
+
+        font-size:16px;
+
+        gap:20px;
+
+    }
+
+    .commercial-faq-answer p{
+
+        padding:0 22px 22px;
+
+        font-size:15px;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .commercial-faq-question{
+
+        font-size:15px;
+
+    }
+
+}
+
+
+/*==================================================
+        RESIDENTIAL HERO RESPONSIVE
+==================================================*/
+
+@media(max-width:1400px){
+
+    .residential-hero h1{
+
+        font-size:58px;
+
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .residential-hero{
+
+        padding:160px 0 110px;
+
+    }
+
+    .residential-hero h1{
+
+        font-size:52px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .residential-hero{
+
+        padding:150px 0 100px;
+
+    }
+
+    .residential-hero h1{
+
+        font-size:44px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .residential-hero{
+
+        padding:130px 0 90px;
+
+        text-align:center;
+
+    }
+
+    .residential-hero::before{
+
+        background-attachment:scroll;
+
+    }
+
+    .residential-hero__content{
+
+        margin:auto;
+
+    }
+
+    .residential-hero h1{
+
+        font-size:36px;
+
+    }
+
+    .residential-hero p{
+
+        font-size:16px;
+
+    }
+
+    .residential-hero__buttons{
+
+        justify-content:center;
+
+    }
+
+    .residential-breadcrumb{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-hero{
+
+        padding:120px 0 80px;
+
+    }
+
+    .residential-hero h1{
+
+        font-size:30px;
+
+    }
+
+    .residential-hero p{
+
+        font-size:15px;
+
+    }
+
+    .residential-hero__buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .residential-hero__buttons .btn{
+
+        width:100%;
+
+        max-width:320px;
+
+        justify-content:center;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .residential-hero h1{
+
+        font-size:26px;
+
+    }
+
+}
+
+
+/*==================================================
+        RESIDENTIAL ABOUT RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+    .residential-about{
+
+        padding:90px 0;
+
+    }
+
+    .residential-about__wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .residential-about__image{
+
+        max-width:650px;
+
+        margin:auto;
+
+    }
+
+    .residential-about__content{
+
+        text-align:center;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .residential-about__content h2{
+
+        font-size:36px;
+
+    }
+
+    .residential-features{
+
+        grid-template-columns:1fr;
+
+        text-align:left;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-about{
+
+        padding:80px 0;
+
+    }
+
+    .residential-about__content h2{
+
+        font-size:30px;
+
+    }
+
+    .residential-about__content p{
+
+        font-size:15px;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .residential-about__content h2{
+
+        font-size:26px;
+
+    }
+
+}
+
+/*==================================================
+    RESIDENTIAL SERVICES RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .residential-services-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .residential-services{
+
+        padding:90px 0;
+
+    }
+
+    .residential-services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-services{
+
+        padding:80px 0;
+
+    }
+
+    .residential-services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .residential-service-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .residential-service-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .residential-service-card{
+
+        padding:30px 20px;
+
+    }
+
+}
+
+
+/*==================================================
+    RESIDENTIAL SOLUTIONS RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .residential-solutions-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .residential-solutions{
+
+        padding:90px 0;
+
+    }
+
+    .residential-solutions-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .solution-card{
+
+        height:280px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-solutions{
+
+        padding:80px 0;
+
+    }
+
+    .residential-solutions-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .solution-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        height:260px;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .solution-card{
+
+        height:240px;
+
+    }
+
+    .solution-overlay{
+
+        padding:20px;
+
+    }
+
+    .solution-overlay h3{
+
+        font-size:20px;
+
+    }
+
+    .solution-overlay i{
+
+        width:55px;
+
+        height:55px;
+
+        font-size:22px;
+
+    }
+
+}
+
+
+/*==================================================
+    RESIDENTIAL PROCESS RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .residential-process-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .residential-process{
+
+        padding:90px 0;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-process{
+
+        padding:80px 0;
+
+    }
+
+    .residential-process-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .residential-process-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .residential-process-card{
+
+        padding:35px 20px;
+
+    }
+
+    .process-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .residential-process-card h3{
+
+        font-size:22px;
+
+    }
+
+}
+
+/*==================================================
+    RESIDENTIAL WHY RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .residential-why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .residential-why{
+
+        padding:90px 0;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-why{
+
+        padding:80px 0;
+
+    }
+
+    .residential-why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .residential-why-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .residential-why-card{
+
+        padding:35px 20px;
+
+    }
+
+    .why-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .residential-why-card h3{
+
+        font-size:21px;
+
+    }
+
+}
+
+/*==================================================
+    RESIDENTIAL SAFETY RESPONSIVE
+==================================================*/
+
+@media(max-width:1200px){
+
+    .residential-safety-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .residential-safety{
+
+        padding:90px 0;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-safety{
+
+        padding:80px 0;
+
+    }
+
+    .residential-safety-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .safety-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .safety-card{
+
+        padding:35px 20px;
+
+    }
+
+    .safety-icon{
+
+        width:70px;
+
+        height:70px;
+
+        font-size:28px;
+
+    }
+
+    .safety-card h3{
+
+        font-size:21px;
+
+    }
+
+}
+
+/*==================================================
+        RESIDENTIAL FAQ RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+    .residential-faq{
+
+        padding:90px 0;
+
+    }
+
+    .residential-faq-question{
+
+        font-size:17px;
+
+        padding:22px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .residential-faq{
+
+        padding:80px 0;
+
+    }
+
+    .residential-faq-question{
+
+        font-size:16px;
+
+        gap:20px;
+
+    }
+
+    .residential-faq-answer p{
+
+        padding:0 22px 22px;
+
+        font-size:15px;
+
+    }
+
+}
+
+@media(max-width:380px){
+
+    .residential-faq-question{
+
+        font-size:15px;
+
+    }
+
+}

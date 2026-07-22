@@ -4092,3 +4092,1727 @@ body{
 
 }
 
+/*==================================================
+            COMMERCIAL HERO
+==================================================*/
+
+.commercial-hero{
+
+    position:relative;
+
+    padding:180px 0 130px;
+
+    overflow:hidden;
+
+    isolation:isolate;
+
+}
+
+/* Background */
+
+.commercial-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            rgba(5,12,25,.78),
+
+            rgba(5,12,25,.78)
+
+        ),
+
+        url("../images/services/commercial.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    z-index:-2;
+
+}
+
+/* Overlay */
+
+.commercial-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            rgba(37,99,235,.18),
+
+            rgba(14,165,233,.08)
+
+        );
+
+    z-index:-1;
+
+}
+
+/* Content */
+
+.commercial-hero__content{
+
+    max-width:760px;
+
+}
+
+.commercial-hero h1{
+
+    font-size:64px;
+
+    color:#fff;
+
+    line-height:1.15;
+
+    margin:22px 0;
+
+}
+
+.commercial-hero p{
+
+    color:#CBD5E1;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+}
+
+.commercial-hero__buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.commercial-breadcrumb{
+
+    margin-top:45px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#CBD5E1;
+
+}
+
+.commercial-breadcrumb a{
+
+    color:#38BDF8;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.commercial-breadcrumb a:hover{
+
+    color:#ffffff;
+
+}
+
+/*==================================================
+            COMMERCIAL ABOUT
+==================================================*/
+
+.commercial-about{
+
+    padding:110px 0;
+
+}
+
+.commercial-about__wrapper{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.commercial-about__image{
+
+    position:relative;
+
+}
+
+.commercial-about__image img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:22px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+
+}
+
+.commercial-about__content h2{
+
+    font-size:46px;
+
+    color:#fff;
+
+    margin:22px 0;
+
+    line-height:1.3;
+
+}
+
+.commercial-about__content p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    margin-bottom:20px;
+
+}
+
+.commercial-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin:35px 0;
+
+}
+
+.feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#fff;
+
+    font-weight:500;
+
+}
+
+.feature i{
+
+    color:#22C55E;
+
+    font-size:20px;
+
+}
+
+
+/*==================================================
+            COMMERCIAL SERVICES
+==================================================*/
+
+.commercial-services{
+
+    padding:110px 0;
+
+}
+
+.commercial-services-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:25px;
+
+}
+
+.commercial-service-card{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.commercial-service-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 20px 45px rgba(37,99,235,.20);
+
+}
+
+.commercial-service-icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+}
+
+.commercial-service-card h3{
+
+    color:#fff;
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.commercial-service-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+
+/*==================================================
+        COMMERCIAL SECTORS
+==================================================*/
+
+.commercial-sectors{
+
+    padding:110px 0;
+
+}
+
+.commercial-sector-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.sector-card{
+
+    position:relative;
+
+    height:320px;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+}
+
+.sector-card img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.sector-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+
+        rgba(0,0,0,.10),
+
+        rgba(0,0,0,.88)
+
+    );
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    padding:30px;
+
+}
+
+.sector-overlay i{
+
+    width:65px;
+
+    height:65px;
+
+    background:#2563EB;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+    transition:.4s;
+
+}
+
+.sector-overlay h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+}
+
+.sector-card:hover img{
+
+    transform:scale(1.12);
+
+}
+
+.sector-card:hover .sector-overlay{
+
+    background:linear-gradient(
+
+        rgba(37,99,235,.15),
+
+        rgba(5,12,25,.95)
+
+    );
+
+}
+
+.sector-card:hover .sector-overlay i{
+
+    background:#0EA5E9;
+
+    transform:rotate(360deg);
+
+}
+
+/*==================================================
+        COMMERCIAL WORKING PROCESS
+==================================================*/
+
+.commercial-process{
+
+    padding:110px 0;
+
+}
+
+.commercial-process-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.commercial-process-card{
+
+    position:relative;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:45px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.commercial-process-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 25px 45px rgba(37,99,235,.25);
+
+}
+
+.process-no{
+
+    position:absolute;
+
+    top:18px;
+
+    right:22px;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#2563EB;
+
+}
+
+.process-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+    transition:.4s;
+
+}
+
+.commercial-process-card:hover .process-icon{
+
+    transform:rotateY(180deg);
+
+}
+
+.commercial-process-card h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.commercial-process-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+}
+
+/*==================================================
+        WHY CHOOSE US
+==================================================*/
+
+.commercial-why{
+
+    padding:110px 0;
+
+}
+
+.commercial-why-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.commercial-why-card{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.commercial-why-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 20px 40px rgba(37,99,235,.22);
+
+}
+
+.why-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+    transition:.35s;
+
+}
+
+.commercial-why-card:hover .why-icon{
+
+    transform:rotateY(180deg);
+
+}
+
+.commercial-why-card h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.commercial-why-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+}
+
+/*==================================================
+                COMMERCIAL FAQ
+==================================================*/
+
+.commercial-faq{
+
+    padding:110px 0;
+
+}
+
+.commercial-faq-wrapper{
+
+    max-width:900px;
+
+    margin:70px auto 0;
+
+}
+
+.commercial-faq-item{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    margin-bottom:20px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+}
+
+.commercial-faq-item:hover{
+
+    border-color:#2563EB;
+
+}
+
+.commercial-faq-question{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    outline:none;
+
+    color:#fff;
+
+    padding:25px 30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    text-align:left;
+
+}
+
+.commercial-faq-question span{
+
+    color:#38BDF8;
+
+    font-size:30px;
+
+    transition:.3s;
+
+}
+
+.commercial-faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .4s ease;
+
+}
+
+.commercial-faq-answer p{
+
+    padding:0 30px 30px;
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+}
+
+.commercial-faq-item.active .commercial-faq-answer{
+
+    max-height:250px;
+
+}
+
+.commercial-faq-item.active .commercial-faq-question span{
+
+    transform:rotate(45deg);
+
+}
+
+/*==================================================
+            RESIDENTIAL HERO
+==================================================*/
+
+.residential-hero{
+
+    position:relative;
+
+    padding:180px 0 130px;
+
+    overflow:hidden;
+
+    isolation:isolate;
+
+}
+
+/* Background */
+
+.residential-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            rgba(5,12,25,.80),
+
+            rgba(5,12,25,.80)
+
+        ),
+
+        url("../images/residential/residential-hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    z-index:-2;
+
+}
+
+/* Blue Overlay */
+
+.residential-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            rgba(37,99,235,.18),
+
+            rgba(14,165,233,.08)
+
+        );
+
+    z-index:-1;
+
+}
+
+.residential-hero__content{
+
+    max-width:760px;
+
+}
+
+.residential-hero h1{
+
+    font-size:64px;
+
+    color:#fff;
+
+    line-height:1.15;
+
+    margin:22px 0;
+
+}
+
+.residential-hero p{
+
+    color:#CBD5E1;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+}
+
+.residential-hero__buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.residential-breadcrumb{
+
+    margin-top:45px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#CBD5E1;
+
+}
+
+.residential-breadcrumb a{
+
+    color:#38BDF8;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.residential-breadcrumb a:hover{
+
+    color:#ffffff;
+
+}
+
+/*==================================================
+            RESIDENTIAL ABOUT
+==================================================*/
+
+.residential-about{
+
+    padding:110px 0;
+
+}
+
+.residential-about__wrapper{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.residential-about__image{
+
+    position:relative;
+
+}
+
+.residential-about__image img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:24px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+
+}
+
+.residential-about__content h2{
+
+    font-size:46px;
+
+    color:#fff;
+
+    margin:22px 0;
+
+    line-height:1.3;
+
+}
+
+.residential-about__content p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    margin-bottom:20px;
+
+}
+
+.residential-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin:35px 0;
+
+}
+
+.residential-features .feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#fff;
+
+    font-weight:500;
+
+}
+
+.residential-features .feature i{
+
+    color:#22C55E;
+
+    font-size:20px;
+
+}
+
+/*==================================================
+        RESIDENTIAL SERVICES
+==================================================*/
+
+.residential-services{
+
+    padding:110px 0;
+
+}
+
+.residential-services-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:25px;
+
+}
+
+.residential-service-card{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.residential-service-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 20px 45px rgba(37,99,235,.22);
+
+}
+
+.residential-service-icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+    transition:.35s;
+
+}
+
+.residential-service-card:hover .residential-service-icon{
+
+    transform:rotateY(180deg);
+
+}
+
+.residential-service-card h3{
+
+    color:#fff;
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.residential-service-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+/*==================================================
+        RESIDENTIAL SOLUTIONS
+==================================================*/
+
+.residential-solutions{
+
+    padding:110px 0;
+
+}
+
+.residential-solutions-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.solution-card{
+
+    position:relative;
+
+    height:320px;
+
+    overflow:hidden;
+
+    border-radius:22px;
+
+    cursor:pointer;
+
+}
+
+.solution-card img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.solution-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+
+        rgba(0,0,0,.10),
+
+        rgba(0,0,0,.90)
+
+    );
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    padding:30px;
+
+    transition:.4s;
+
+}
+
+.solution-overlay i{
+
+    width:65px;
+
+    height:65px;
+
+    border-radius:50%;
+
+    background:#2563EB;
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+    transition:.4s;
+
+}
+
+.solution-overlay h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+}
+
+.solution-card:hover img{
+
+    transform:scale(1.12);
+
+}
+
+.solution-card:hover .solution-overlay{
+
+    background:linear-gradient(
+
+        rgba(37,99,235,.15),
+
+        rgba(5,12,25,.96)
+
+    );
+
+}
+
+.solution-card:hover .solution-overlay i{
+
+    background:#0EA5E9;
+
+    transform:rotate(360deg);
+
+}
+
+/*==================================================
+        RESIDENTIAL WORKING PROCESS
+==================================================*/
+
+.residential-process{
+
+    padding:110px 0;
+
+}
+
+.residential-process-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.residential-process-card{
+
+    position:relative;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:45px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.residential-process-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 20px 45px rgba(37,99,235,.25);
+
+}
+
+.process-number{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    color:#2563EB;
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+.process-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+    transition:.4s;
+
+}
+
+.residential-process-card:hover .process-icon{
+
+    transform:rotateY(180deg);
+
+}
+
+.residential-process-card h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.residential-process-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+}
+
+/*==================================================
+        WHY CHOOSE RESIDENTIAL
+==================================================*/
+
+.residential-why{
+
+    padding:110px 0;
+
+}
+
+.residential-why-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.residential-why-card{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:45px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.residential-why-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 25px 45px rgba(37,99,235,.22);
+
+}
+
+.why-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+    transition:.35s;
+
+}
+
+.residential-why-card:hover .why-icon{
+
+    transform:rotateY(180deg);
+
+}
+
+.residential-why-card h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.residential-why-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+}
+
+
+/*==================================================
+        RESIDENTIAL SAFETY
+==================================================*/
+
+.residential-safety{
+
+    padding:110px 0;
+
+}
+
+.residential-safety-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.safety-card{
+
+    background:rgba(17,24,39,.85);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:45px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.safety-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 20px 45px rgba(37,99,235,.25);
+
+}
+
+.safety-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:34px;
+
+    transition:.4s;
+
+}
+
+.safety-card:hover .safety-icon{
+
+    transform:rotateY(180deg);
+
+}
+
+.safety-card h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.safety-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+}
+
+/*==================================================
+            RESIDENTIAL FAQ
+==================================================*/
+
+.residential-faq{
+
+    padding:110px 0;
+
+}
+
+.residential-faq-wrapper{
+
+    max-width:900px;
+
+    margin:70px auto 0;
+
+}
+
+.residential-faq-item{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    margin-bottom:20px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+}
+
+.residential-faq-item:hover{
+
+    border-color:#2563EB;
+
+}
+
+.residential-faq-question{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    outline:none;
+
+    color:#fff;
+
+    padding:25px 30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    text-align:left;
+
+}
+
+.residential-faq-question span{
+
+    font-size:30px;
+
+    color:#38BDF8;
+
+    transition:.35s;
+
+}
+
+.residential-faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .4s ease;
+
+}
+
+.residential-faq-answer p{
+
+    padding:0 30px 30px;
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+}
+
+.residential-faq-item.active .residential-faq-answer{
+
+    max-height:250px;
+
+}
+
+.residential-faq-item.active .residential-faq-question span{
+
+    transform:rotate(45deg);
+
+}
