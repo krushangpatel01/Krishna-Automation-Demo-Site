@@ -1161,7 +1161,7 @@ Top CTA
 
     font-size:28px;
 
-    color:var(--heading-color);
+    color:var(--black);
 
     cursor:pointer;
 
@@ -1530,237 +1530,6 @@ Top CTA
                     HERO SECTION START
 ==================================================*/
 
-
-/*==================================================
-                CLIENT SECTION START
-==================================================*/
-
-.clients{
-    padding:50px 0;
-    background:#F8FAFC;
-    position:relative;
-    overflow:hidden;
-}
-
-/*==========================================
-            SECTION TITLE
-==========================================*/
-
-.section-title{
-    text-align:center;
-    max-width:800px;
-    margin:0 auto 20px;
-    color: var(--white);
-}
-
-.section-title span{
-
-    display:inline-block;
-
-    padding:10px 22px;
-
-    background:#E8F2FF;
-
-    color:var(--primary-color);
-
-    border-radius:50px;
-
-    font-size:15px;
-
-    font-weight:600;
-
-    margin-bottom:18px;
-
-}
-
-.section-title h2{
-
-    font-size:46px;
-
-    color:var(--black);
-
-    margin-bottom:20px;
-
-    font-weight:700;
-
-}
-
-.section-title p{
-
-    font-size:17px;
-
-    line-height:1.8;
-
-    color:var(--black);
-
-}
-
-/*==========================================
-            SLIDER CONTAINER
-==========================================*/
-
-.clients-slider{
-
-    position:relative;
-
-    padding:25px;
-
-    border-radius:28px;
-
-    background:linear-gradient(
-        135deg,
-        #ECFDF5,
-        #EEF6FF
-    );
-
-    border:2px solid rgba(29,155,240,.15);
-
-    box-shadow:0 20px 50px rgba(15,23,42,.08);
-
-}
-
-/* Gradient Fade */
-
-.clients-slider::before,
-.clients-slider::after{
-
-    content:"";
-
-    position:absolute;
-
-    top:0;
-
-    width:100px;
-
-    height:100%;
-
-    z-index:5;
-
-    pointer-events:none;
-
-}
-
-.clients-slider::before{
-
-    left:0;
-
-    background:linear-gradient(
-        to right,
-        #F8FAFC,
-        transparent
-    );
-
-}
-
-.clients-slider::after{
-
-    right:0;
-
-    background:linear-gradient(
-        to left,
-        #F8FAFC,
-        transparent
-    );
-
-}
-
-/*==========================================
-            SLIDES
-==========================================*/
-
-.swiper-slide{
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-}
-
-/*==========================================
-            CLIENT CARD
-==========================================*/
-
-.client-card{
-
-    width:200px;
-    height:120px;
-
-    background:#FFFFFF;
-
-    border-radius:18px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    padding:20px;
-
-    border:1px solid #E8EEF5;
-
-    box-shadow:
-        0 8px 25px rgba(0,0,0,.05),
-        0 2px 8px rgba(0,0,0,.03);
-
-    transition:all .35s ease;
-
-}
-
-.client-card:hover{
-
-    transform:translateY(-6px);
-
-    border-color:var(--primary-color);
-
-    box-shadow:
-        0 18px 40px rgba(15,76,129,.15);
-
-}
-
-/*==========================================
-            LOGOS
-==========================================*/
-
-.client-card img{
-
-    width:140px;
-
-    max-width:85%;
-
-    max-height:70px;
-
-    object-fit:contain;
-
-    transition:all .35s ease;
-
-}
-
-.client-card:hover img{
-
-    transform:scale(1.08);
-
-}
-/*==========================================
-            SWIPER
-==========================================*/
-
-.swiper{
-
-    overflow:hidden;
-
-}
-
-.swiper-wrapper{
-
-    align-items:center;
-
-}
-
-
-/*==================================================
-                CLIENT SECTION END
-==================================================*/
 
 /*==================================================
                 OWNER SECTION START
@@ -2683,74 +2452,6 @@ body{
 }
 
 
-/*==================================================
-                CLIENTS SLIDER
-==================================================*/
-
-.clients{
-    padding:100px 0;
-}
-
-.clients-slider{
-    overflow:hidden;
-    position:relative;
-    margin-top:50px;
-}
-
-.clients-track{
-
-    display:flex;
-    width:max-content;
-
-    animation:scrollClients 25s linear infinite;
-}
-
-.client-card{
-
-    min-width:220px;
-    height:120px;
-
-    margin:0 20px;
-
-    background:#ffffff;
-
-    border-radius:15px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.1);
-
-    transition:.3s;
-}
-
-.client-card img{
-
-    max-width:120px;
-    filter:none; /* no black & white */
-
-}
-
-/* Hover effect */
-
-.client-card:hover{
-    transform:translateY(-8px);
-}
-
-/* Animation */
-
-@keyframes scrollClients{
-
-    0%{
-        transform:translateX(0);
-    }
-
-    100%{
-        transform:translateX(-50%);
-    }
-
-}
 
 
 /* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END *//* HOMEPAGE CSS END */
@@ -3325,11 +3026,223 @@ body{
 }
 
 
-    
+/*==================================================
+            EXPLORE SERVICES
+==================================================*/
 
+.explore-services{
+    padding:110px 0;
+    position:relative;
+}
 
+.explore-services-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:70px;
+}
 
+.explore-service-card{
 
+    display:flex;
+    flex-direction:column;
+
+    text-decoration:none;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    transition:.4s ease;
+
+    position:relative;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.18);
+
+}
+
+.explore-service-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#2563EB;
+
+    box-shadow:0 25px 55px rgba(37,99,235,.25);
+
+}
+
+.explore-service-image{
+
+    height:240px;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.explore-service-image::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        rgba(0,0,0,.10),
+        rgba(0,0,0,.45)
+    );
+
+    z-index:1;
+
+}
+
+.explore-service-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.explore-service-card:hover .explore-service-image img{
+
+    transform:scale(1.08);
+
+}
+
+.explore-service-content{
+
+    padding:30px;
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.explore-service-icon{
+
+    width:72px;
+    height:72px;
+
+    margin:-65px auto 25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:30px;
+
+    position:relative;
+
+    z-index:5;
+
+    box-shadow:0 15px 30px rgba(37,99,235,.35);
+
+    transition:.4s;
+
+}
+
+.explore-service-card:hover .explore-service-icon{
+
+    transform:rotate(360deg);
+
+}
+
+.explore-service-content h3{
+
+    color:#fff;
+
+    font-size:30px;
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+    font-family:'Outfit',sans-serif;
+
+}
+
+.explore-service-content p{
+
+    color:#CBD5E1;
+
+    text-align:center;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+    margin-bottom:30px;
+
+    font-family:'DM Sans',sans-serif;
+
+    flex:1;
+
+}
+
+.explore-service-btn{
+
+    width:max-content;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    background:#2563EB;
+
+    color:#fff;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.explore-service-btn i{
+
+    transition:.35s;
+
+}
+
+.explore-service-card:hover .explore-service-btn{
+
+    background:#0EA5E9;
+
+}
+
+.explore-service-card:hover .explore-service-btn i{
+
+    transform:translateX(8px);
+
+}
 
 
 /*==================================================
@@ -3471,6 +3384,8 @@ body{
 
 }
 
+
+
 /*==================================================
             INDUSTRIAL ABOUT
 ==================================================*/
@@ -3602,6 +3517,7 @@ body{
     font-size:20px;
 
 }
+
 
 
 /*==================================================
@@ -3866,25 +3782,19 @@ body{
             WORKING PROCESS
 ==================================================*/
 
-.industrial-process{
-
-    padding: 60px;
-
+.working-process{
+    padding:110px 0;
+    position:relative;
 }
 
-.process-grid{
-
+.working-process-grid{
     display:grid;
-
-    grid-template-columns:repeat(5,1fr);
-
-    gap:25px;
-
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
     margin-top:70px;
-
 }
 
-.process-card{
+.working-card{
 
     position:relative;
 
@@ -3892,53 +3802,115 @@ body{
 
     border:1px solid rgba(255,255,255,.08);
 
-    border-radius:20px;
+    border-radius:24px;
 
-    padding:40px 25px;
+    overflow:hidden;
 
-    text-align:center;
+    transition:.4s ease;
 
-    transition:.35s;
+    min-height:500px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:flex-start;
+
+    padding:35px 25px;
 
 }
 
-.process-card:hover{
+.working-card:hover{
 
-    transform:translateY(-10px);
+    transform:translateY(-12px);
 
     border-color:#2563EB;
 
-    box-shadow:0 20px 40px rgba(37,99,235,.25);
+    box-shadow:0 25px 50px rgba(37,99,235,.25);
 
 }
 
-.process-number{
+.step-box{
 
-    position:absolute;
+    width:90px;
 
-    top:18px;
+    height:90px;
 
-    right:18px;
+    border-radius:18px;
 
-    font-size:18px;
+    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+
+    color:#fff;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:14px;
 
     font-weight:700;
 
-    color:#2563EB;
+    letter-spacing:1px;
+
+    box-shadow:0 15px 35px rgba(37,99,235,.35);
+
+    margin-bottom:35px;
+
+    transition:.4s;
 
 }
 
-.process-icon{
+.step-box span{
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-top:6px;
+
+    line-height:1;
+
+}
+
+.working-card:hover .step-box{
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+.working-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    flex:1;
+
+    width:100%;
+
+}
+
+.working-icon{
 
     width:85px;
 
     height:85px;
 
-    margin:auto;
-
     border-radius:50%;
 
-    background:linear-gradient(135deg,#2563EB,#0EA5E9);
+    background:rgba(37,99,235,.12);
+
+    border:2px solid #2563EB;
 
     display:flex;
 
@@ -3946,42 +3918,107 @@ body{
 
     justify-content:center;
 
+    color:#3B82F6;
+
     font-size:34px;
 
-    color:#fff;
+    margin-bottom:30px;
 
-    margin-bottom:25px;
-
-    transition:.35s;
+    transition:.4s;
 
 }
 
-.process-card:hover .process-icon{
+.working-card:hover .working-icon{
+
+    background:#2563EB;
+
+    color:#fff;
 
     transform:rotateY(180deg);
 
 }
 
-.process-card h3{
+.working-content h3{
 
     color:#fff;
 
-    font-size:22px;
+    font-size:28px;
 
-    margin-bottom:15px;
+    line-height:1.3;
+
+    margin-bottom:18px;
+
+    font-family:'Outfit',sans-serif;
 
 }
 
-.process-card p{
+.working-content p{
 
     color:#CBD5E1;
 
-    line-height:1.8;
-
     font-size:15px;
+
+    line-height:1.9;
+
+    font-family:'DM Sans',sans-serif;
 
 }
 
+.working-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:22px;
+
+    transform:translateX(-50%);
+
+    width:60px;
+
+    height:4px;
+
+    background:#2563EB;
+
+    border-radius:30px;
+
+    transition:.4s;
+
+}
+
+.working-card:hover::after{
+
+    width:110px;
+
+}
+
+.working-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        135deg,
+        rgba(37,99,235,.08),
+        transparent
+    );
+
+    opacity:0;
+
+    transition:.4s;
+
+}
+
+.working-card:hover::before{
+
+    opacity:1;
+
+}
 /*==================================================
                     FAQ
 ==================================================*/

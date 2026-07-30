@@ -2062,7 +2062,113 @@ font-size:14px;
 }
 
 
+/*==================================================
+        EXPLORE SERVICES RESPONSIVE
+==================================================*/
 
+@media(max-width:1200px){
+
+    .explore-services-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+        gap:25px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .explore-services{
+
+        padding:90px 0;
+
+    }
+
+    .explore-services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .explore-services{
+
+        padding:80px 0;
+
+    }
+
+    .explore-services-grid{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    .explore-service-card{
+
+        max-width:420px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+    .explore-service-image{
+
+        height:220px;
+
+    }
+
+    .explore-service-content h3{
+
+        font-size:26px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .explore-service-image{
+
+        height:200px;
+
+    }
+
+    .explore-service-content{
+
+        padding:25px;
+
+    }
+
+    .explore-service-content h3{
+
+        font-size:22px;
+
+    }
+
+    .explore-service-content p{
+
+        font-size:14px;
+
+    }
+
+    .explore-service-btn{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
 
 
 
@@ -2640,83 +2746,306 @@ font-size:14px;
         WORKING PROCESS RESPONSIVE
 ==================================================*/
 
-@media(max-width:1400px){
+/*==============================
+        Large Laptop
+==============================*/
 
-    .process-grid{
+@media (max-width:1200px){
 
-        grid-template-columns:repeat(5,1fr);
+    .working-process{
+        padding:100px 0;
+    }
 
+    .working-process-grid{
+        grid-template-columns:repeat(4,1fr);
+        gap:20px;
+    }
+
+    .working-card{
+        min-height:470px;
+        padding:30px 20px;
+    }
+
+    .working-content h3{
+        font-size:24px;
+    }
+
+    .working-content p{
+        font-size:14px;
     }
 
 }
 
-@media(max-width:1200px){
+/*==============================
+            Tablet
+==============================*/
 
-    .process-grid{
+@media (max-width:992px){
 
-        grid-template-columns:repeat(3,1fr);
-
-    }
-
-}
-
-@media(max-width:992px){
-
-    .industrial-process{
-
+    .working-process{
         padding:90px 0;
-
     }
 
-    .process-grid{
+    .working-process-grid{
 
         grid-template-columns:repeat(2,1fr);
 
+        gap:25px;
+
+    }
+
+    .working-card{
+
+        max-width:360px;
+
+        width:100%;
+
+        margin:auto;
+
+        min-height:430px;
+
     }
 
 }
 
-@media(max-width:576px){
+/*==============================
+            Mobile
+==============================*/
 
-    .industrial-process{
+@media (max-width:768px){
+
+    .working-process{
 
         padding:80px 0;
 
     }
 
-    .process-grid{
+    .working-process-grid{
 
         grid-template-columns:1fr;
 
+        max-width:420px;
+
+        margin:60px auto 0;
+
+        gap:30px;
+
     }
 
-    .process-card{
-
-        max-width:400px;
-
-        margin:auto;
+    .working-card{
 
         width:100%;
+
+        min-height:auto;
+
+        padding:30px 25px;
+
+    }
+
+    .step-box{
+
+        width:80px;
+
+        height:80px;
+
+    }
+
+    .step-box span{
+
+        font-size:30px;
+
+    }
+
+    .working-icon{
+
+        width:75px;
+
+        height:75px;
+
+        font-size:30px;
+
+    }
+
+    .working-content h3{
+
+        font-size:24px;
+
+    }
+
+    .working-content p{
+
+        font-size:15px;
 
     }
 
 }
 
-@media(max-width:380px){
+/*==============================
+        Small Mobile
+==============================*/
 
-    .process-icon{
+@media (max-width:576px){
 
-        width:70px;
+    .working-process{
 
-        height:70px;
-
-        font-size:28px;
+        padding:70px 0;
 
     }
 
-    .process-card{
+    .working-process-grid{
 
-        padding:30px 20px;
+        max-width:320px;
+
+    }
+
+    .working-card{
+
+        padding:25px 20px;
+
+        border-radius:20px;
+
+    }
+
+    .step-box{
+
+        width:72px;
+
+        height:72px;
+
+        font-size:12px;
+
+    }
+
+    .step-box span{
+
+        font-size:26px;
+
+    }
+
+    .working-icon{
+
+        width:65px;
+
+        height:65px;
+
+        font-size:26px;
+
+        margin-bottom:20px;
+
+    }
+
+    .working-content h3{
+
+        font-size:22px;
+
+    }
+
+    .working-content p{
+
+        font-size:14px;
+
+        line-height:1.7;
+
+    }
+
+}
+
+/*==============================
+        Extra Small
+==============================*/
+
+@media (max-width:380px){
+
+    .working-process-grid{
+
+        max-width:280px;
+
+    }
+
+    .working-card{
+
+        padding:22px 18px;
+
+    }
+
+    .step-box{
+
+        width:65px;
+
+        height:65px;
+
+    }
+
+    .step-box span{
+
+        font-size:22px;
+
+    }
+
+    .working-icon{
+
+        width:60px;
+
+        height:60px;
+
+        font-size:24px;
+
+    }
+
+    .working-content h3{
+
+        font-size:20px;
+
+    }
+
+    .working-content p{
+
+        font-size:13px;
+
+    }
+
+}
+/*==============================
+        Extra Small
+==============================*/
+
+@media (max-width:380px){
+
+    .process-grid{
+
+        max-width:280px;
+
+    }
+
+    .process-image{
+
+        height:180px;
+
+    }
+
+    .process-image span{
+
+        width:55px;
+
+        height:55px;
+
+        font-size:20px;
+
+    }
+
+    .process-card h3{
+
+        font-size:20px;
+
+        padding:0 18px;
+
+    }
+
+    .process-card p{
+
+        padding:15px 18px 25px;
+
+        font-size:13px;
 
     }
 
